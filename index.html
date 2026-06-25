@@ -4,446 +4,1247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" href="dist/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="dist/slick/slick-theme.css">
-    <link rel="stylesheet" href="dist/slick/slick.css">
-    <link rel="stylesheet" href="dist/wow/animate.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>test @web_laid</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/js-datepicker/dist/datepicker.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>test</title>
 </head>
 
 <body>
-    <main>
-        <div class="loader">
-            <div class="loader-block">
-                <div class="loader-block-item"></div>
-                <div class="loader-block-item"></div>
-                <div class="loader-block-item"></div>
-                <div class="loader-block-item"></div>
-            </div>
-        </div>
-        <div class="up-btn default-block-bg">
-            <img src="img/up-icon.png" alt="">
-        </div>
-        <section class="head">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="head-btn">
-                            <a href="" class="head-btn-item">
-                                Log in
-                            </a>
-                        </div>
-                        <div class="head-row">
-                            <div class="head-text-block">
-                                <h2 class="title">
-                                    It’s a hot place for your streaming fantasy.
-                                </h2>
-                                <p class="slogan">
-                                    It’s a free space for watching streams and chatting with alluring people.
-                                </p>
-                            </div>
-                            <div class="head-form">
-                                <div class="gradient-glow"></div>
-                                <div class="head-form-switch">
-                                    <div class="head-form-switch-item">
-                                        <div class="head-form-inner sign-up">
-                                            <form action="#">
-                                                <div class="head-form-block">
-                                                    <p class="head-form-block-title">
-                                                        I am
-                                                    </p>
-                                                    <div class="head-form-option">
-                                                        <label class="head-form-option-item">
-                                                            <p class="head-form-option-item-title">
-                                                                Male
-                                                            </p>
-                                                            <input type="radio" name="gen" required>
-                                                        </label>
-                                                        <label class="head-form-option-item">
-                                                            <p class="head-form-option-item-title">
-                                                                Female
-                                                            </p>
-                                                            <input type="radio" name="gen" required>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <label class="head-form-block">
-                                                    <p class="head-form-block-title">
-                                                        My name is
-                                                    </p>
-                                                    <div class="head-form-block-item">
-                                                        <input type="text" placeholder="e.g. Alex" required>
-                                                    </div>
-                                                </label>
-                                                <label class="head-form-block">
-                                                    <p class="head-form-block-title">
-                                                        I was born on
-                                                    </p>
-                                                    <div class="head-form-block-item">
-                                                        <input type="date" placeholder="e.g. Alex" required>
-                                                    </div>
-                                                </label>
-                                                <label class="head-form-block head-form-check">
-                                                    <div class="head-form-check-item">
-                                                        <input type="checkbox" required>
-                                                    </div>
-                                                    <div class="head-form-check-title">
-                                                        I have read understand and agree to Terms of Use, Privacy Policy, Disclosures&Disclaimers.
-                                                    </div>
-                                                </label>
-                                                <div class="head-form-block head-form-sub">
-                                                    <input type="submit" class="h-btn" value="Sign up now">
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <div class="head-form-switch-item">
-                                        <div class="head-form-inner log-in">
-                                            <form action="#">
-                                                <a href="#" class="head-form-sign">
-                                                    <div class="head-form-sign-icon">
-                                                        <img src="img/google.png" alt="">
-                                                    </div>
-                                                    <div class="head-form-sign-title">
-                                                        Sign up with Google
-                                                    </div>
-                                                </a>
-                                                <div class="head-form-or">
-                                                    or
-                                                </div>
-                                                <label class="head-form-block">
-                                                    <p class="head-form-block-title">
-                                                        Email
-                                                    </p>
-                                                    <div class="head-form-block-item">
-                                                        <input type="email" placeholder="e.g. Alex@email.com" required>
-                                                    </div>
-                                                </label>
-                                                <label class="head-form-block">
-                                                    <p class="head-form-block-title">
-                                                        Password
-                                                    </p>
-                                                    <div class="head-form-block-item head-form-block-item-password">
-                                                        <input type="Password" placeholder="8+ characters" minlength="8" required>
-                                                        <div class="head-form-block-item-password-object">
-                                                            <img src="img/i.png" alt="">
-                                                        </div>
-                                                    </div>
-                                                </label>
-                                                <a href="#" class="head-form-sign head-form-sign-mail">
-                                                    <div class="head-form-sign-icon">
-                                                        <img src="img/mail.png" alt="">
-                                                    </div>
-                                                    <div class="head-form-sign-title">
-                                                        Sign up with Google
-                                                    </div>
-                                                </a>
-                                                <p class="head-form-text">
-                                                    You hereby confirm that you are fully able and competent to access Livebeam and comply with the Terms of Use & Service, and are at least eighteen (18) years of age or the age of majority under the law of the jurisdiction of your residence and the one you are accessing Livebeam from.
-                                                </p>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="head-form-switch-btn">
-                                    <div class="head-form-switch-btn-item active"></div>
-                                    <div class="head-form-switch-btn-item"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="head-slider">
-                <a href="#" class="head-slider-item">
-                    <img src="img/head-slider1.gif" alt="">
-                </a>
-                <a href="#" class="head-slider-item">
-                    <img src="img/head-slider2.gif" alt="">
-                </a>
-                <a href="#" class="head-slider-item">
-                    <img src="img/head-slider3.gif" alt="">
-                </a>
-                <a href="#" class="head-slider-item">
-                    <img src="img/head-slider4.gif" alt="">
-                </a>
-            </div>
-        </section>
-        <style>
-        </style>
-        <section class="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="about-block">
-                            <div class="gradient-glow"></div>
-                            <div class="about-block-inner">
-                                <h2 class="title">
-                                    About
-                                </h2>
-                                <p class="slogan">
-                                    It’s a global <b>streaming platform</b> for communication and meeting incredibly beautiful people. We created an excellent place where you can enjoy your time and <b>find appropriate matches</b> at first.
-                                </p>
-                                <p class="slogan">
-                                    Approximately 80% of our users have already found their lovelies. <b>Watch streams</b> w ithout hindrance and meet someone <b>who interests you.</b>
-                                </p>
-                                <div class="about-block-btn">
-                                    <a href="#" class="h-btn scroll-btn" data-scroll=".head-form">
-                                        Join for free
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="why">
-            <div class="gradient-glow"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="title">
-                            Why join us?
-                        </h2>
-                        <div class="why-row">
-                            <div class="why-inner">
-                                <div class="why-inner-header">
-                                    <div class="why-inner-header-icon">
-                                        <img src="img/why1.png" alt="">
-                                    </div>
-                                    <div class="why-inner-header-title">
-                                        Chat with attractive streamers for free
-                                    </div>
-                                </div>
-                                <p class="why-inner-slogan">
-                                    It’s an excellent web platform for streaming. Write messages to the beautiful streamers for free and explore this magical universe of communication!
-                                </p>
-                            </div>
-                            <div class="why-inner">
-                                <div class="why-inner-header">
-                                    <div class="why-inner-header-icon">
-                                        <img src="img/why2.png" alt="">
-                                    </div>
-                                    <div class="why-inner-header-title">
-                                        Only verified users
-                                    </div>
-                                </div>
-                                <p class="why-inner-slogan">
-                                    We care about the privacy and security of our customers. All accounts are verified so look for an attractive stranger confidently!
-                                </p>
-                            </div>
-                            <div class="why-inner">
-                                <div class="why-inner-header">
-                                    <div class="why-inner-header-icon">
-                                        <img src="img/why3.png" alt="">
-                                    </div>
-                                    <div class="why-inner-header-title">
-                                        Customized search
-                                    </div>
-                                </div>
-                                <p class="why-inner-slogan">
-                                    Match alluring partners for your own preferences. Maybe you will be interested in a hot slender European or shy beautiful Asian? Make your choice…
-                                </p>
-                            </div>
-                            <div class="why-inner">
-                                <div class="why-inner-header">
-                                    <div class="why-inner-header-icon">
-                                        <img src="img/why4.png" alt="">
-                                    </div>
-                                    <div class="why-inner-header-title">
-                                        Easy to use
-                                    </div>
-                                </div>
-                                <p class="why-inner-slogan">
-                                    Forget about hundreds of annoying notifications and inconvenient use. We have created the platform as easy to use and search as possible. Don’t waste your time studying functionality. Just enjoy!
-                                </p>
-                            </div>
-                        </div>
-                        <div class="why-mob">
-                            <img src="img/why-mob.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="here">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="title">
-                            Here you can find
-                        </h2>
-                        <div class="here-list">
-                            <div class="gradient-glow"></div>
-                            <div class="here-list-item">
-                                <div class="here-list-item-icon">
-                                    <img src="img/here1.png" alt="">
-                                </div>
-                                <div class="here-list-item-title">
-                                    Watching streams of everyone you really like;
-                                </div>
-                            </div>
-                            <div class="here-list-item">
-                                <div class="here-list-item-icon">
-                                    <img src="img/here2.png" alt="">
-                                </div>
-                                <div class="here-list-item-title">
-                                    Free communication with pretty streamers;
-                                </div>
-                            </div>
-                            <div class="here-list-item">
-                                <div class="here-list-item-icon">
-                                    <img src="img/here3.png" alt="">
-                                </div>
-                                <div class="here-list-item-title">
-                                    Sweet connection with people you match;
-                                </div>
-                            </div>
-                            <div class="here-list-item">
-                                <div class="here-list-item-icon">
-                                    <img src="img/here4.png" alt="">
-                                </div>
-                                <div class="here-list-item-title">
-                                    New acquaintances with someone who has similar interests;
-                                </div>
-                            </div>
-                            <div class="here-list-item">
-                                <div class="here-list-item-icon">
-                                    <img src="img/here5.png" alt="">
-                                </div>
-                                <div class="here-list-item-title">
-                                    Fascinating hobbies and exciting occupations from people you fancy.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="stream">
-            <div class="gradient-glow"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="stream-text-block">
-                            <h2 class="title">
-                                It’s a universe of communication and streaming without borders!
-                            </h2>
-                            <p class="slogan">
-                                Let yourself to be free – share your thoughts, delight, and fears with beautiful strangers!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="stream-slider">
-                <a href="#" class="stream-slider-item">
-                    <img src="img/stream1.png" alt="">
-                </a>
-                <a href="#" class="stream-slider-item">
-                    <img src="img/stream2.png" alt="">
-                </a>
-                <a href="#" class="stream-slider-item">
-                    <img src="img/stream3.png" alt="">
-                </a>
-                <a href="#" class="stream-slider-item">
-                    <img src="img/stream4.png" alt="">
-                </a>
-                <a href="#" class="stream-slider-item">
-                    <img src="img/stream5.png" alt="">
-                </a>
-            </div>
-            <div class="stream-btn">
-                <a href="#" class="h-btn scroll-btn" data-scroll=".head-form">
-                    Join for free
-                </a>
-            </div>
-        </section>
-        <section class="agitation">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="agitation-block">
-                            <h2 class="title">
-                                It’s a dedicated space for your bold fantasies!
-                            </h2>
-                            <p class="slogan">
-                                Hundreds of attractive admirers are already waiting for you here. Don’t delay – dive into the world of streaming, flirting, and hot communication right now!
-                            </p>
-                            <div class="agitation-object">
-                                <div class="agitation-object-img">
-                                    <img src="img/hand.png" alt="">
-                                </div>
-                                <div class="agitation-object-description">
-                                    free communication with streamers here
-                                </div>
-                                <div class="gradient-glow"></div>
-                            </div>
-                            <div class="agitation-btn">
-                                <a href="#" class="h-btn scroll-btn" data-scroll=".head-form">
-                                    Write to her
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
+    <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-row">
-                        <div class="footer-row-item">
-                            <a href="mailto:support@gmail.com" class="footer-link">support@gmail.com</a>
-                            <a href="#" class="footer-link">Unsubscribe</a>
+            <div class="header-row">
+                <div class="header-logo">
+                    <a href="#" class="logo">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="header-block">
+                    <div class="header-block-header">
+                        <h2 class="header-block-header-title">
+                            monblanproject
+                        </h2>
+                        <div class="header-block-header-object">
+                            Start on 17-02-2016
                         </div>
-                        <div class="footer-row-item">
-                            <p class="footer-title">
-                                Legal terms
+                    </div>
+                    <div class="header-block-row">
+                        <div class="header-block-row-item">
+                            <p class="header-block-row-item-title">
+                                <span>870</span> posts
                             </p>
-                            <a href="#" class="footer-link">
-                                Terms of Use
-                            </a>
-                            <a href="#" class="footer-link">
-                                Diclosures&Disclaimers
-                            </a>
                         </div>
-                        <div class="footer-row-item">
-                            <p class="footer-title">
-                                Privacy info
+                        <div class="header-block-row-item">
+                            <p class="header-block-row-item-title">
+                                <span>11,787</span> followers
                             </p>
-                            <a href="#" class="footer-link">
-                                Privacy Policy
-                            </a>
-                            <a href="#" class="footer-link">
-                                Cookie Policy
-                            </a>
                         </div>
-                        <div class="footer-row-item">
-                            <p class="footer-title">
-                                About
+                        <div class="header-block-row-item">
+                            <p class="header-block-row-item-title">
+                                <span>112</span> following
                             </p>
-                            <a href="#" class="footer-link">
-                                About Us
-                            </a>
+                        </div>
+                    </div>
+                    <div class="header-block-date">
+                        <div class="header-block-date-title">
+                            Date
+                        </div>
+                        <div class="header-block-date-input">
+                            <div class="date-box">
+                                <input class="date-picker" data-id="1">
+                                <div class="header-block-date-input-object">
+	                                <button class="clear-date">
+	                                	<img src="images/plus.png" alt="">
+	                                </button>
+	                                <button class="calendar-btn">
+	                                    <img src="images/calendar.png" alt="">
+	                                </button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="header-block-date-input">
+                            <div class="date-box">
+                                <input class="date-picker" data-id="2">
+                                <div class="header-block-date-input-object">
+	                                <button class="clear-date">
+	                                	<img src="images/plus.png" alt="">
+	                                </button>
+	                                <button class="calendar-btn" >
+	                                    <img src="images/calendar.png" alt="">
+	                                </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <script src="dist/jquery/jquery-3.7.1.min.js"></script>
-    <script src="dist/slick/slick.min.js"></script>
-    <script src="dist/wow/wow.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
-    <script src="js/main.js"></script>
+    </header>
+    <div class="object header-object">
+        <img src="images/header-object.png" alt="">
+    </div>
+    <div class="object page-object">
+        <img src="images/page-object.png" alt="">
+    </div>
+    <section class="list">
+        <div class="container">
+            <div class="list-btn">
+                <div class="list-btn-item active">
+                    <img src="images/list-icon1_1.png" alt="">
+                    <img src="images/list-icon1_2.png" alt="">
+                </div>
+                <div class="list-btn-item">
+                    <img src="images/list-icon2_1.png" alt="">
+                    <img src="images/list-icon2_2.png" alt="">
+                </div>
+            </div>
+            <div class="list-content">
+                <div class="list-content-item">
+                    <div class="list-line">
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_1.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_2.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_3.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_4.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_5.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_6.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_7.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_8.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_9.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_8.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list1_9.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-content-item-btn">
+                        <a href="#" class="h-btn">
+                            Load More
+                        </a>
+                    </div>
+                </div>
+                <div class="list-content-item">
+                    <div class="list-tile">
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list2_1.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list2_2.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list2_3.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list2_4.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list2_5.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list2_6.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list2_7.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                        <div class="list-inner">
+                            <div class="list-inner-item list-inner-img">
+                                <img src="images/list2_8.jpg" alt="">
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Today
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            128
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            31
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    9-08-2016
+                                </p>
+                                <div class="list-inner-item-row">
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ci_heart-fill.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            67
+                                        </span>
+                                    </div>
+                                    <div class="list-inner-item-row-item">
+                                        <span class="list-inner-item-row-item-icon">
+                                            <img src="images/ic_round-mode-comment.png" alt="">
+                                        </span>
+                                        <span class="list-inner-item-row-item-text">
+                                            22
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-inner-item">
+                                <p class="list-inner-item-title">
+                                    Image upload
+                                </p>
+                                <p class="list-inner-item-date">
+                                    11-04-2016
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-content-item-btn">
+                        <a href="#" class="h-btn">
+                            Load More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-datepicker/dist/datepicker.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
